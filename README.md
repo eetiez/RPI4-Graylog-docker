@@ -39,3 +39,5 @@ docker-compose build
 ```bash
 docker-compose up -d
 ```
+
+You should then be able to contact your Graylog instance via your web browser : `http://<RPI4_IP>:9000`
