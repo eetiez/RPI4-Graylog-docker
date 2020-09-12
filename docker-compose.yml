@@ -7,7 +7,6 @@ services:
   elasticsearch:
     image: elasticsearch-oss:6.8.12
     build: ./elasticsearch-docker
-      context: 
     environment:
       - http.host=0.0.0.0
       - transport.host=localhost
