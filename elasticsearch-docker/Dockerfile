@@ -67,8 +67,7 @@ RUN sed -e '/UseAVX/ s/^#*/#/' -i /usr/share/elasticsearch/config/jvm.options
 
 EXPOSE 9200 9300
 
-LABEL 
-  org.label-schema.name="Elasticsearch" \
+LABEL org.label-schema.name="Elasticsearch" \
   org.label-schema.schema-version="1.0" \
   org.label-schema.url="https://www.elastic.co/products/elasticsearch" \
   org.label-schema.usage="https://www.elastic.co/guide/en/elasticsearch/reference/index.html" \
